@@ -3,3 +3,4 @@ Foo Foo
 
  Fuzzy Wuzzy was a bear
  Fuzzy Wuzzy didn't care
+	That he is a bunny

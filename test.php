@@ -1,7 +1,7 @@
 <?php
 
-// to test
-// curl -F MAX_FILE_SIZE='10485760' -F userfile=@"/u/test.txt" http://localhost/file.php
+// to test saving /u/test.txt (should have permition and ownership of root)
+// curl -F MAX_FILE_SIZE='10485760' -F userfile=@"/u/test.txt" http://localhost/test.php
 
 $uploaddir = '/var/www/uploads/';
 $uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
